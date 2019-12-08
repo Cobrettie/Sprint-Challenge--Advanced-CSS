@@ -1,3 +1,12 @@
+.desktop-row-img {
+  width: 28%;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+.desktop-signup-btn {
+  width: 40%;
+  margin: 0 0 50px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)

@@ -40,9 +40,8 @@
 
       @media @desktop {
         display: unset;
-        width: 28%;
-        margin: 20px auto;
-        border-radius: 20px;
+        // custom mixin for smaller imgs in rows
+        .desktop-row-img();
       }
     }
 
@@ -51,9 +50,8 @@
 
       @media @desktop {
         display: unset;
-        width: 28%;
-        margin: 20px auto;
-        border-radius: 20px;
+        // custom mixin for smaller imgs in rows
+        .desktop-row-img();
       }
     }
   }
@@ -110,8 +108,7 @@
         .signupbtn(@ebony-clay, #fff, center);
 
         @media @desktop {
-          width: 40%;
-          margin: 0 0 50px;
+          .desktop-signup-btn();
         }
       }
 
@@ -119,8 +116,7 @@
         .signupbtn(#fff, @ebony-clay, center);
 
         @media @desktop {
-          width: 40%;
-          margin: 0 0 50px;
+          .desktop-signup-btn();
         }
       }
     }
