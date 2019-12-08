@@ -14,7 +14,7 @@
 
     .main-header-img img {
       width: 100%;
-      border-radius: 10px;
+      border-radius: 5px;
     }
   
   }
@@ -29,19 +29,41 @@
       margin: 20px auto;
       border-radius: 20px;
       height: 100%;
+
+      @media @desktop {
+        width: 28%;
+      }
     }
 
     .sky {
       display: none;
+
+      @media @desktop {
+        display: unset;
+        width: 28%;
+        margin: 20px auto;
+        border-radius: 20px;
+      }
     }
 
     .launch {
       display: none;
+
+      @media @desktop {
+        display: unset;
+        width: 28%;
+        margin: 20px auto;
+        border-radius: 20px;
+      }
     }
   }
 
   .visit-planets {
     padding: 15px;
+
+    @media @desktop {
+      padding: 15px 15px 50px;
+    }
 
     h3 {
       margin-top: 11px;
@@ -59,9 +81,21 @@
     flex-direction: column-reverse;
     justify-content: center;
 
+    @media @desktop {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 30px 0 0;
+    }
+
     .walk-text {
       width: 100%;
       padding: 0 15px;
+
+      @media @desktop {
+        width: 40%;
+        margin: 20px 5% 0;
+      }
 
       h3 {
         margin-bottom: 10px;
@@ -72,18 +106,32 @@
       }
 
       .btn {
-        .signupbtn(@ebony-clay, #fff, center);
         cursor: pointer;
+        .signupbtn(@ebony-clay, #fff, center);
+
+        @media @desktop {
+          width: 40%;
+          margin: 0 0 50px;
+        }
       }
 
       .btn:hover {
         .signupbtn(#fff, @ebony-clay, center);
+
+        @media @desktop {
+          width: 40%;
+          margin: 0 0 50px;
+        }
       }
     }
 
     .walk-img {
       width: 90%;
       margin: 20px auto;
+
+      @media @desktop {
+        width: 40%;
+      }
       
       img {
         width: 100%;

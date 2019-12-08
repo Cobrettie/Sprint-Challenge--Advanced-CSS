@@ -19,15 +19,24 @@
 
   .nav-links {
     width: 100%;
+    max-width: 800px;
     margin: 0 auto;
     padding: 0 10px 15px;
     display: flex;
     justify-content: space-evenly;
 
+    @media @desktop {
+      justify-content: center;
+    }
+
     a {
       text-decoration: none;
       color: @river-bend;
       font-size: 1.7rem;
+
+      @media @desktop {
+        padding: 0 20px;
+      }
     }
   }
 }
