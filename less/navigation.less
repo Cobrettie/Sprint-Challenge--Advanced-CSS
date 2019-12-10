@@ -5,7 +5,16 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: @wild-sand;
+    // background-color: @wild-sand;
+    background-color: rgba(246, 246, 246, 0.8);
+
+    // creating fixed navigation menu for desktop display
+    @media @desktop {
+      position: fixed;
+      top: 0;
+    }
+
+    
   }
 
   .nav-logo {
