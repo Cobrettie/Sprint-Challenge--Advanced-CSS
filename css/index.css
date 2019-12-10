@@ -355,3 +355,34 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.signup-form-contain {
+  border: 5px solid #23293B;
+  border-radius: 10px;
+  max-width: 800px;
+  width: 100%;
+  margin: 50px auto;
+}
+.signup-form-contain .formheading {
+  text-align: center;
+  padding: 40px 0 30px;
+}
+.signup-form-contain form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 60px;
+  margin: 20px 0 0;
+}
+.signup-form-contain form .input-field {
+  width: 50%;
+  padding: 10px;
+  margin: 10px auto 10px;
+  border-radius: 5px;
+}
+.signup-form-contain form .submit-btn {
+  width: 50%;
+  padding: 10px;
+  margin: 30px auto 10px;
+  border: 2px solid #23293B;
+  border-radius: 5px;
+}
