@@ -1,1 +1,27 @@
 // Mixins Here
+
+// mixin for use in images to be displayed in rows
+.desktop-row-img {
+  width: 28%;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+// mixin for the sign up button on index.html for use in desktop breakpoints
+.desktop-signup-btn {
+  width: 40%;
+  margin: 0 0 50px;
+}
+
+// sign up button parametric mixin
+
+.signupbtn(@background, @color, @textalign) {
+  width: 98%;
+  border-radius: 5px;
+  margin: 0 auto 20px;
+  padding: 20px 0;
+  background: @background;
+  color: @color;
+  text-align: @textalign;
+  font-size: 1.8rem;
+}
